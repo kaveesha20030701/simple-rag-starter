@@ -1,0 +1,3 @@
+A vector store is a database built specifically to store embeddings and search them efficiently. Rather than scanning every single stored vector one by one to compare it against a query, most vector stores use indexing structures, such as approximate nearest neighbor algorithms, so that searches remain fast even when there are millions of stored chunks.
+
+Popular vector store options include Chroma, FAISS, Pinecone, and Weaviate. Chroma and FAISS run locally and are free, which makes them a good starting point for small projects such as a student research prototype, while Pinecone and Weaviate are typically used as managed cloud services for larger production systems.

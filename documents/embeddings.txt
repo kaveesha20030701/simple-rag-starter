@@ -1,0 +1,3 @@
+An embedding is a numerical representation of text, usually a list of a few hundred floating point numbers, produced by a neural network trained to capture meaning. Two chunks of text that mean similar things will end up with embedding vectors that are close together in that number space, even if they use completely different words. This is what makes semantic search possible: you are searching by meaning rather than by matching exact keywords.
+
+Distance between embeddings is usually measured with cosine similarity or dot product. When a user asks a question, the question itself is embedded using the same model, and the system looks for document chunks whose embeddings are closest to the question's embedding.
